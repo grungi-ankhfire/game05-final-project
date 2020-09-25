@@ -10,6 +10,7 @@ public class ArchManager : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            // The player won!
             SceneManager.LoadScene("Win");
         }
     }
